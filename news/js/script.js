@@ -149,7 +149,7 @@ function fillArticlePage(article, articleData) {
     dataBody = articleData['body'].split("\r\n");
     if (dataBody.length < 2) {
         article.find("#title").text(dataBody[0]);
-    } else if (dataBody.length < 3) {
+    } else {
         title = article.find("#title");
         title.text(dataBody[0]);
         url = dataBody[1];
