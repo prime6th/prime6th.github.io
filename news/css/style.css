@@ -1,0 +1,86 @@
+@import 'reset.css';
+html {
+    height: 95%;
+}
+body {
+    background: #111111;
+    color: #eeeeee;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+aside {
+    display: none;
+    position: fixed;
+    right: 5px;
+    top: 3em;
+    border: solid 1px darkslateblue;
+    background: black;
+    /*opacity: 1;*/
+}
+
+header {
+    margin: 2% 10% 2%;
+}
+
+section, footer {
+    margin: 0 10%;
+}
+
+header {    
+    border-bottom: solid 1px white;
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+footer {
+    border-top: solid 1px white;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 0.5em;    
+    position: relative;
+    /*
+    bottom: 0;
+    left: 0;
+    right: 0;
+    */
+    margin: 1em 10%;
+    text-align: center;    
+}
+
+section {
+    border: solid 1px #444444;
+    box-sizing: border-box;
+    height: 85%;
+    border-radius: 10px;
+    padding-left: 1em;
+    overflow-y: auto;    
+}
+
+section ol {
+    list-style: decimal outside;
+    padding-left: 1.5em;    
+}
+
+article {
+    padding: 0.1em 0;
+    margin: 0.6em 0.5em 0;
+    min-width: 95%;
+}
+
+article a {
+    color: whitesmoke;
+}
+
+article span#site {
+    background: #404525;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 2px 0.3em;
+}
+
+article span#post-time {
+    font-size: 11px;
+}
