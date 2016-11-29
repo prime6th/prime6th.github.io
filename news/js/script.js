@@ -62,7 +62,7 @@ function githubapi(cfg, articleData) {
                             url: obj[0],
                             dataType: "jsonp",
                             success: function(retLast) {
-                                lastData = returnData.data;
+                                lastData = retLast.data;
                                 var ai = 0;
                                 for (di = lastData.length - 1; di >= 0; --di) {
                                     articleData.push(lastData[di]);
